@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Kenyan-inspired colors
+				savanna: {
+					DEFAULT: 'hsl(var(--savanna-gold))',
+					gold: 'hsl(var(--savanna-gold))'
+				},
+				terracotta: 'hsl(var(--terracotta))',
+				'deep-green': 'hsl(var(--deep-green))',
+				'sunset-orange': 'hsl(var(--sunset-orange))',
+				'earth-brown': 'hsl(var(--earth-brown))',
+				'acacia-green': 'hsl(var(--acacia-green))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

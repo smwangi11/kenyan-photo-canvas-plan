@@ -8,26 +8,43 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 45 15% 97%;
+    --foreground: 20 14% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 20 14% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 20 14% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 25 75% 47%;
+    --primary-foreground: 45 15% 97%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 45 20% 92%;
+    --secondary-foreground: 20 14% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 45 15% 94%;
+    --muted-foreground: 25 8% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 35 65% 55%;
+    --accent-foreground: 45 15% 97%;
+
+    /* Kenyan-inspired design tokens */
+    --savanna-gold: 42 88% 65%;
+    --terracotta: 15 75% 55%;
+    --deep-green: 140 45% 25%;
+    --sunset-orange: 25 85% 60%;
+    --earth-brown: 30 35% 35%;
+    --acacia-green: 95 25% 45%;
+
+    /* Gradients */
+    --gradient-savanna: linear-gradient(135deg, hsl(var(--savanna-gold)), hsl(var(--sunset-orange)));
+    --gradient-earth: linear-gradient(180deg, hsl(var(--terracotta)), hsl(var(--earth-brown)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+
+    /* Shadows */
+    --shadow-warm: 0 10px 30px -10px hsl(var(--terracotta) / 0.3);
+    --shadow-elegant: 0 4px 20px -4px hsl(var(--primary) / 0.15);
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
